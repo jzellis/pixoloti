@@ -1,0 +1,18 @@
+{
+  "name": "pixoloti",
+  "version": "0.0.1",
+  "description": "Sets up a Raspberry Pi to run as a headless MIDI hub with an Axoloti",
+  "main": "midimon.js",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "midi": "^0.9.5",
+    "node-gyp": "^3.6.0",
+    "rebuild": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Ellis",
+  "license": "ISC"
+}
