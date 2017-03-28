@@ -5,6 +5,7 @@
   "main": "midimon.js",
   "dependencies": {
     "ip": "^1.1.5",
+    "lcd": "^1.1.4",
     "midi": "^0.9.5",
     "node-gyp": "^3.6.0",
     "rebuild": "^0.1.2"
@@ -14,5 +15,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joshua Ellis",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzellis/pixoloti.git"
+  },
+  "keywords": [
+    "midi",
+    "lcd",
+    "node",
+    "pi"
+  ],
+  "bugs": {
+    "url": "https://github.com/jzellis/pixoloti/issues"
+  },
+  "homepage": "https://github.com/jzellis/pixoloti#readme"
 }

@@ -49,5 +49,10 @@ console.log(formatted);
 
 }
 
+process.on('SIGINT', function(){
 // Close the port when done.
 // input.closePort();
+for(var i = 0; i < portCount; i++){
+ports[i].closePort()
+}
+});
